@@ -1,11 +1,11 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.scss";
+import Posts from "./components/Posts/posts.component";
 
 function App() {
   return (
     <div className="App">
-      This is App
-
+      <Posts />
     </div>
   );
 }
