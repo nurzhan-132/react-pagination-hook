@@ -1,0 +1,36 @@
+.pagination {
+  display: flex;
+  align-items: center;
+
+  ul {
+    list-style: none;
+    display: flex;
+    margin: 0 1rem;
+    padding: 0;
+  }
+
+  li {
+    margin: 0 0.25rem;
+  }
+
+  button {
+    border: 1px solid #ccc;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    outline: none;
+
+    &:hover {
+      background: #fff;
+    }
+
+    &:disabled {
+      cursor: not-allowed;
+      opacity: 0.5;
+    }
+  }
+
+  &-active {
+    background-color: #fff;
+    border: 2px solid mediumpurple !important;
+  }
+}

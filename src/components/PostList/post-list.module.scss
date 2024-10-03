@@ -1,0 +1,11 @@
+.post {
+  display: flex;
+  flex-direction: column;
+  &-content {
+    padding: 16px;
+    margin-top: 16px;
+    border: 2px solid mediumpurple;
+    border-radius: 10px;
+    text-align: left;
+  }
+}
